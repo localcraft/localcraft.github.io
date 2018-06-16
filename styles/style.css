@@ -1,0 +1,24 @@
+.full-height{
+    height: 100vh;
+}
+
+.percentage{
+    height: 33vmax;
+}
+
+.pretty-font{
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.flex-images{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.flex-image{
+    width: 240px;
+    height: 180px;
+    background-color: burlywood;
+}
