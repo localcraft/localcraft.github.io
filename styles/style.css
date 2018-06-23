@@ -14,11 +14,26 @@
     display: flex;
     flex-flow: wrap;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 
 .flex-image{
     width: 240px;
     height: 180px;
     background-color: burlywood;
+    overflow: hidden;
+}
+
+.responsive{
+    height: 100vh;
+    width: auto;
+}
+
+.default-height{
+    max-height: 100vh;
+}
+
+.craft-picture{
+    height: 75vmin;
+    width: auto;
 }
